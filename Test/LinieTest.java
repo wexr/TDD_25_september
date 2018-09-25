@@ -28,4 +28,15 @@ class LinieTest {
         assertEquals(8, linie.getLength());
     }
 
+    @Test
+    void testNytPunktEqualsFour() {
+        //3. Arrange
+        Punkt punkt = new Punkt();
+        //2. Act
+        punkt.getX();
+        //1. Assert
+        assertEquals(4.0,4.0);
+    }
+
+
 }
