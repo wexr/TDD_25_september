@@ -1,6 +1,7 @@
 public class Punkt {
 
-    double x = 4.0;
+    private double x = 0.0;
+    private double y = 0.0;
 
     public double getX() {
         return x;
@@ -11,6 +12,11 @@ public class Punkt {
     }
 
 
+    public double getY() {
+        return y;
+    }
 
-
+    public void setY(double y) {
+        this.y = y;
+    }
 }

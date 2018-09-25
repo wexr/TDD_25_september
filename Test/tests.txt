@@ -1,6 +1,9 @@
 Test længde => længde = 5
 Test længde => længde = 8
+Test nyt punkt => punktX = 4,0
+Test nyt punkt => punktX = 3,0
+Test nyt punkt => punktY = 0,4
+Test nyt punkt => punktY = 0,3
 
-
-Test nyt punkt => punkt = 4,0
-Test nyt punkt => punkt = 3,0
+Test punkt x og y => længde = 2
+Test punkt x og y på parameter => længde = 3

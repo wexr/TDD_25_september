@@ -1,5 +1,6 @@
 public class Linie {
     double length = 0;
+    Punkt punkt = new Punkt();
 
 
     public double getLength() {
@@ -11,8 +12,8 @@ public class Linie {
     }
 
 
-
-
-
-
+    public double afstand() {
+        length = punkt.getX() - punkt.getY();
+        return length;
+    }
 }
