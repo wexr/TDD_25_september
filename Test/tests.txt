@@ -1,2 +1,6 @@
 Test længde => længde = 5
 Test længde => længde = 8
+
+
+Test nyt punkt => punkt = 0,3
+Test nyt punkt => punkt = 0,4

@@ -1,5 +1,5 @@
 public class Linie {
-    double length = 5;
+    double length = 0;
 
 
     public double getLength() {

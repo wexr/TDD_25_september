@@ -12,7 +12,7 @@ class LinieTest {
         //3. Arrange
         Linie linie = new Linie();
         //2. Act
-        linie.getLength();
+        linie.setLength(5);
         //1. Assert
         assertEquals(5, linie.getLength());
     }
@@ -23,8 +23,9 @@ class LinieTest {
         //3. Arrange
         Linie linie = new Linie();
         //2. Act.
-        linie.getLength();
+        linie.setLength(8);
         //1. Assert
         assertEquals(8, linie.getLength());
     }
+
 }
