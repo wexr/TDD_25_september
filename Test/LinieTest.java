@@ -76,9 +76,8 @@ class LinieTest {
         //2. Act
         punkt.setX(7.0);
         punkt.setY(4.0);
-        linie.afstand();
         //1. Assert
-        assertEquals(3, linie.afstand(), 0.001);
+        assertEquals(3, linie.afstand(7.0, 4.0), 0.001);
 
     }
 }
