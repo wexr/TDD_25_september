@@ -80,4 +80,14 @@ class LinieTest {
         assertEquals(3, linie.afstand(7.0, 4.0), 0.001);
 
     }
+
+    @Test
+    void testLengthEqualsFour() {
+        //3. Arrange
+        Linie linie = new Linie();
+        //2. Act
+
+        //1. Assert
+        assertEquals(4, linie.afstand(8.0, 4.0), 0.001);
+    }
 }

@@ -7,3 +7,4 @@ Test nyt punkt => punktY = 0,3
 
 Test punkt x og y => længde = 2
 Test punkt x og y på parameter => længde = 3
+Test punkt x og y på parameter => længde = 4
