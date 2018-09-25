@@ -35,8 +35,16 @@ class LinieTest {
         //2. Act
         punkt.getX();
         //1. Assert
-        assertEquals(4.0,4.0);
+        assertEquals(4.0,punkt.getX());
     }
 
-
+    @Test
+    void testNytPunktEqualsThree() {
+        //3. Arrange
+        Punkt punkt = new Punkt();
+        //2. Act
+        punkt.getX();
+        //1. Assert
+        assertEquals(3.0, punkt.getX());
+    }
 }
